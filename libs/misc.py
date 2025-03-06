@@ -2,7 +2,6 @@ from math import *
 from time import time
 
 from OpenGL.GL import *
-# from OpenGL.GLU import *
 from OpenGL.GLUT import *
 from libs.font import *
 from libs.vector import *
@@ -14,7 +13,6 @@ class ShotTrace:
 
     def __init__(self, normal, pos):
 
-        # self.pos = pos + normal/1000
         self.pos = pos
         self.pos.y += 0.001
         self.opacity = 1

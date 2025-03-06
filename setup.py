@@ -1,4 +1,3 @@
-#setup.py
 import sys, os
 from cx_Freeze import setup, Executable
 

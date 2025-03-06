@@ -1,4 +1,3 @@
-# made by mohamed nagy 2nd comp
 from math import sqrt, acos, tan, degrees, atan2, sin, cos, pi
 import sys
 

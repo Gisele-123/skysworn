@@ -5,7 +5,6 @@ from libs.vector import *
 from random import randrange
 from math import sin, cos
 from csv import reader
-# import numpy as np
 
 
 class Terrain:

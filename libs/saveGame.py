@@ -1,7 +1,4 @@
-# try:
-#     import ujson as json
-# except:
-#     import json
+
 import gzip
 import json
 from libs.vector import Vec3

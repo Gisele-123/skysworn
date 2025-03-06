@@ -4,7 +4,6 @@ from OpenGL.GLU import *
 import pygame
 from libs.saveGame import *
 
-# initializing glut and window because some imports depend on it
 try:
     glutInit()
     pygame.mixer.init(frequency=22050, size=-16, channels=2, buffer=512)
@@ -15,13 +14,9 @@ try:
 except Error:
     raise Error
 
-# continuing importing
+
 from libs.misc import drawOnScreen
 from libs.game import *
-
-
-# will be deleted
-# x, y, z = 2, -1, -4
 
 
 def resize(w, h):
@@ -263,17 +258,6 @@ def loadingLoop():
 
 glutTimerFunc(TIMER_INTERVAL_MS, Timer, 1)
 
-# terrain = Terrain("textures/volc.jpg", "textures/volcH.JPG", "textures/SAND-01-270/SAND-01-270cm/SAND-01-270cm_Color_4k.jpg")
-# terrain = Terrain("textures/volc.jpg", "textures/volcH.JPG", "textures/rdt4 color/BURNED-FORESTFLOOR-01_COLOR_4k.jpg")
-
-
-# gun = OBJ("Pistol.obj")
-# gun = OBJ("Handgun_obj.obj")
-
-# model = Robot()
-# model.load("C:\\Users\\agour\\Desktop\\pygame\\hdr\\gun")
-
-
 glutReshapeFunc(resize)
 glutSetKeyRepeat(0)
 glEnable(GL_LIGHTING)
@@ -284,26 +268,18 @@ glEnable(GL_FOG)
 glEnable(GL_COLOR_MATERIAL)
 glEnable(GL_DEPTH_TEST)
 glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
-# glEnable(GL_DEPTH_TEST)
-# glAlphaFunc(GL_GREATER, 0.3)
 glutSetOption(GLUT_MULTISAMPLE, 8)
 
 glutFullScreen()
-# glutIdleFunc(process)
-# glutDisplayFunc(loadingLoop)
-# glutMainLoop()
 
 game = Game()
 rec = Record(game)
 
-# KEYBOARD
 glutSpecialFunc(specialPressedKey)
 glutSpecialUpFunc(specialReleasedKey)
-# glutKeyboardFunc(pressedKey)
 glutKeyboardFunc(pressedKey)
 glutKeyboardUpFunc(releasedKey)
 
-# MOUSE
 glutPassiveMotionFunc(mouseLookCallBack)
 glutMotionFunc(mouseLookCallBack)
 glutSetCursor(GLUT_CURSOR_NONE)

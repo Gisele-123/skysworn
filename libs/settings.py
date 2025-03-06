@@ -4,7 +4,7 @@ from OpenGL.GLUT import *
 import pygame
 
 GAME_FPS = 60
-TIMER_INTERVAL_MS = int(1000 / GAME_FPS)  # try  2,5,7 msec
+TIMER_INTERVAL_MS = int(1000 / GAME_FPS)  
 height = glutGet(GLUT_SCREEN_HEIGHT)
 width = glutGet(GLUT_SCREEN_WIDTH)
 ratio = width/height

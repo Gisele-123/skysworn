@@ -135,7 +135,7 @@ def loadPackOfPak(path, step=1):
 
 
 def loadingRect():
-    glBindTexture(GL_TEXTURE_2D, loading.getNextFrame())
+    glBindTexture(GL_TEXTURE_2D, logging.getNextFrame())
     drawRect(1, 1)
 
 

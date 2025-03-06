@@ -1,6 +1,3 @@
-# from OpenGL.GLU import *
-# from OpenGL.GL import *
-# from OpenGL.GLUT import *
 from libs.settings import *
 import pygame
 

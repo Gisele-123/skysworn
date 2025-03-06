@@ -2,7 +2,6 @@ import threading
 from libs.Texture import *
 import json
 from time import time
-# import numpy as np
 
 
 class OBJ:

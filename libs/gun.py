@@ -1,7 +1,4 @@
-# from OpenGL.GLUT import *
-# from OpenGL.GL import *
 import pygame
-# from time import time
 from math import inf
 from libs.misc import *
 from libs.animated import *

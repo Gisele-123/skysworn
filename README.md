@@ -1,43 +1,55 @@
-# MummyIsland  
-  
-MummyIsland is a 3D game, Written in Python using Pyopengl and Pygame.  
-  
-![image](https://user-images.githubusercontent.com/63170874/123775636-d5fe2f80-d8ce-11eb-9510-ecac702169fa.png)
+# 🛸 Skysworn: Survive Aliens
 
+**Skysworn: Survive Aliens** is an action-packed survival game where players battle alien invaders in a hostile environment. Use your combat skills, strategic movement, and special abilities to survive and uncover the secrets of an alien-infested world.
 
+## 📖 Documentation
+For detailed information about the game mechanics, features, and development process, check out our official documentation:  
+[📄 Skysworn: Survive Aliens Documentation](https://docs.google.com/document/d/1CnDTdMmO_BDIqpRUs3FWZsWG71wFvFZNy0VgT1uX6D8/edit?usp=sharing)
 
-## How to run
- 1. Install python 3  
- 2. install Pyopengl and Pygame  
- 3. open cmd
- 4. `cd <main-directory>  `
- 5. `python game.py `
- Enjoy the game!
- 
-## How to play
- -  WASD-controls
- - space for jumping
- - shift for running
- - f1 to start/stop recording
- - f2 to replay a record
- - esc to exit game
+---
 
-## Cheat Codes
+## 🎮 Controls
 
- - To use cheat codes just type the code while playing
+### 🏃 Movement
+| Key | Action |
+|----|--------|
+| `W` | Move Forward |
+| `S` | Move Backward |
+| `A` | Move Left |
+| `D` | Move Right |
+| `Spacebar` | Jump |
 
+### 🔫 Combat
+| Key | Action |
+|----|--------|
+| `R` | Reload Weapon |
 
-| code | what it does |
-|--|--|
-| massacre | kill all the mummies |
-| hackmag | infinity number of bullets loaded into mag |
-| maxa | infinity reloads |
-| rocket | no gravity |
-| flash | speed boost |
-| neverdie | infinity health |
-| slamdunk | high jump |
-| reset | removes all applied cheats |
+### 📷 Camera & Debugging
+| Key(s) | Action |
+|----|--------|
+| `Arrow Keys` | Adjust Player’s Position (Debugging) |
+| `8 / 2 / 6 / 4 / 1 / 0` | Move Player Position (X, Y, Z Axis) |
+| `+ / -` | Zoom In / Out |
 
+### ⚡ Special Actions
+| Key | Action |
+|----|--------|
+| `Shift` | Sprint |
+| `Ctrl` | Use Special Abilities (Depends on Situation) |
+| `Alt` | Activate Special Camera Modes |
 
-## Gameplay
-https://youtu.be/TgGBlhRgckA
+### 🔧 Functional Controls
+| Key | Action |
+|----|--------|
+| `F1` | Start/Stop Recording |
+| `F2` | Play Saved Recordings |
+| `Esc` | Exit Game |
+
+---
+
+## 🚀 How to Play
+1. **Download & Install:** Ensure you have Python and `pygbag` installed to run the game in a browser.
+2. **Run the Game Locally:**  
+   ```sh
+   pygbag game.py
+   python game.py

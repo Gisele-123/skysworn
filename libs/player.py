@@ -1,6 +1,3 @@
-# from OpenGL.GLUT import *
-# from OpenGL.GL import *
-# from time import time
 from math import sin, cos, pi
 from libs.vector import Vec3
 from libs.misc import *
